@@ -1,17 +1,8 @@
-list = "hej", "då", "hej"
+import random
 
-dic = {
-    "hej": "sten",
-    2: "sax", 
-    3: "påse"
-}
+numbers = [1,2,3,4,5,6,7,8,9,10]
 
 
-#for i in range(3): 
-    #print(list[i])
-
-#for word in list: 
-    #print(word)
-
-print(dic["hej"])
-
+def function():
+  
+  inp = input("Enter a number")
