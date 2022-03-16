@@ -1,5 +1,17 @@
-list = ["hej", "då", "hej"]
+list = "hej", "då", "hej"
 
-print(len(list))
+dic = {
+    "hej": "sten",
+    2: "sax", 
+    3: "påse"
+}
 
+
+#for i in range(3): 
+    #print(list[i])
+
+#for word in list: 
+    #print(word)
+
+print(dic["hej"])
 
