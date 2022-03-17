@@ -1,5 +1,5 @@
 
-from student import Question
+from calc import Question
 
 
 question_prompts = [
