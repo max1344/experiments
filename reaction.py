@@ -1,6 +1,9 @@
 import time
 import random
-import keyboard    #pip3 install keyboard 
+import keyboard    
+
+
+#pip3 install keyboard 
 
 
 #timeAtStart = time.time()
@@ -17,10 +20,7 @@ while True:
         print("you pressed p")
         break
 
-while True: 
-    if keyboard.is_pressed("q"):
-        print("you pressed q")
-        break
+
 
 #timer = random.randint(3,7)
 
