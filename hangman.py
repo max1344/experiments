@@ -4,7 +4,6 @@ import random
 playing = True
 
 
-
 def function():
   answer = random.randint(1,10)
   inp = input("Guess your number: ")
@@ -14,15 +13,23 @@ def function():
       return 
   print("The correct answer was: " + str(answer))
   if answer == int(inp):
-    print("correct answer")
+    global playing
     playing = False
+    print("correct answer")
   else: 
     print("Wrong number")
 
+x = [1,2,3]
+print(type(x))
+print(x)
 
+set = {"apple", "banana", "orange", "pear", "olive", "grape", }
+print(set)
 
 while playing == True:
   function()
+
+
 
 
 
