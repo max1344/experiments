@@ -1,9 +1,7 @@
 import time 
 import random
-from timeit import timeit 
 import time
 import keyboard
-
 
 
 def reactiontime():
@@ -20,7 +18,8 @@ def reactiontime():
     else:
         print("Game Over")
 
-    
+
+
 
 
 
