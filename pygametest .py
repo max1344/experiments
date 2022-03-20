@@ -17,8 +17,9 @@ while True:
     tick += 1
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.exit() 
+            #pygame.quit()
+            #sys.exit()
+            print("haha fak ju ") 
     screen.fill((0,255,0))
     text = FONT.render(statements[tick - 1], True, (0,0,0))
     screen.blit(text,(0,0))
