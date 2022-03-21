@@ -1,4 +1,5 @@
-import pygame, sys, time, random, math
+import pygame
+import sys, time, random, math
 from pygame.locals import *
 pygame.init()
 pygame.display.set_caption("Drones")
@@ -41,7 +42,7 @@ pointPosY = 0
 dragCoefficientX = 0.0075
 dragCoefficientY = 0.003
 gravityForce = -0.4
-accVerticalForce = 5
+accVerticalForce = 1
 accHorizontalForce = 0.4
 
 manualBot = False
