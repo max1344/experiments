@@ -27,3 +27,10 @@ while True:
     print(tick)
 
 
+leftPressed = False
+
+
+
+ if event.key == K_SPACE:
+                spacePressed = True
+

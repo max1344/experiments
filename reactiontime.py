@@ -15,6 +15,7 @@ def reactiontime():
         print("set")
         time.sleep(random.randint(2,3))
         print("gooo")
+        
     else:
         print("Game Over")
         
