@@ -1,6 +1,7 @@
 import time 
 import random
 import time
+import pygame
 import keyboard
 
 
