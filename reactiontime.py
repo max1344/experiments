@@ -1,6 +1,7 @@
 import time 
 import random
 import time
+import pygame
 import keyboard
 
 
@@ -15,8 +16,10 @@ def reactiontime():
         print("set")
         time.sleep(random.randint(2,3))
         print("gooo")
+        
     else:
         print("Game Over")
+        
 
 
 
