@@ -19,6 +19,8 @@ def reactiontime():
         
     else:
         print("Game Over")
+
+reactiontime()
         
 
 
