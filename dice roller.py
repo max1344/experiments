@@ -9,15 +9,19 @@ def rolldice():
         print("You rolled: " + str(random.randint(1,6)))
         playag = input("Would you like to roll again?")
         print(playag)
-        if playag == "yes":
-            playing = True
-            print("You rolled: " + str(random.randint(1,6)))
+        while playag == "yes":
+        #if playag == "yes":
+            break
         else:
-            Playing = False
+            global playing
+            playing = False
     if inp == "no":
         playing = False
-        print("why not?")
+        print("maybe later :)")
             
 
 while playing == True:
     rolldice()
+
+
+
