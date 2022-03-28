@@ -17,9 +17,10 @@ def LineSpam(amount):
 
 def guesstheword():
     global playing
-    active_word = "hello" #(words[random.randint(0, len(words))])
+    active_word = (words[random.randint(0, len(words))])
     guesses = 10
     while playing == True:
+        print(len(str(active_word)))
         inp = input("Enter a letter: ")
         LineSpam(50)
         print("you guessed: " + inp)
@@ -32,6 +33,7 @@ def guesstheword():
             if guesses <= 0:
                 playing = False
                 print("Game Over ")
+                print(active_word)
 
 
 guesstheword()
