@@ -17,7 +17,7 @@ while True:
             sys.exit()
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE:
-                #color = ((random.randint(0,255),random.randint(0,255), random.randint(0,255)))
+                color = ((random.randint(0,255),random.randint(0,255), random.randint(0,255)))
                 text1 = myfont.render("Hello World",500,rectc)
                 screen.blit(text1,(700,400))
     
