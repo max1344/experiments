@@ -22,6 +22,7 @@ def updateReveal(inp, reveal):
             reveal = reveal[:i] + inp + reveal[i+1:]
     return reveal
 
+alfabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 def guesstheword():
     global playing, active_word
@@ -40,6 +41,9 @@ def guesstheword():
         inp = input("Enter a letter: ")
         LineSpam(50)
         print("you guessed: " + inp)
+        if inp not in alfabet:
+            print("invalid character")
+            guesses += 1
         if inp in active_word:
             print("letter was in word")
         if inp not in active_word:
