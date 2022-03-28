@@ -1,3 +1,5 @@
+#dice roller som Lukas gjorde
+
 import random, sys
 from turtle import distance
 playing = False

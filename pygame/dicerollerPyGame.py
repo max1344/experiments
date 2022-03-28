@@ -16,3 +16,7 @@ while True:
                 color = ((random.randint(0,255),random.randint(0,255), random.randint(0,255)))
     screen.fill(color)
     pygame.display.update()
+    
+ 
+
+
