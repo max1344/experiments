@@ -8,7 +8,7 @@ def rolldice():
     if inp == "yes":
         print("You rolled: " + str(random.randint(1,6)))
         playag = input("Would you like to roll again?")
-        print(playag)
+        #print(playag)
         while playag == "yes":
         #if playag == "yes":
             break
