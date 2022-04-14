@@ -5,6 +5,11 @@ import random
 
 
 screen = pygame.display.set_mode((1280,720)) 
+clock = pygame.time.Clock()
+
+curent_time = 0
+button_press_time = 0
+
 
 color =(0,0,0) 
 
@@ -16,5 +21,9 @@ while True:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE: 
                 color = ((random.randint(0,255),random.randint(0,255), random.randint(0,255))) #what happens when a key is pressed
+        
+        curent_time = pygame.time.get_ticks()
+        print(curent_time)
+
     screen.fill(color)
     pygame.display.update()
