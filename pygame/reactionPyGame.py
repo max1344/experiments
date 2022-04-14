@@ -21,9 +21,10 @@ while True:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE: 
                 color = ((random.randint(0,255),random.randint(0,255), random.randint(0,255))) #what happens when a key is pressed
+        if event.type == pygame.KEYDOWN:
+            button_press_time = pygame.time.get_ticks()
         
         curent_time = pygame.time.get_ticks()
-        print(curent_time)
 
     screen.fill(color)
     pygame.display.update()
