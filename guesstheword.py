@@ -27,7 +27,7 @@ alfabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
 def guesstheword():
     global playing, active_word
     active_word = words[random.randint(0, len(words))]
-    guesses = 10
+    guesses = 7
     reveal = ""
     for i in range(len(active_word)):
         reveal += "_"
