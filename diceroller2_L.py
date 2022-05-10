@@ -14,7 +14,7 @@ def CheckIfEven(a):
     else:
         return "it is not even"
     
-
+fdfdfdf
 print(CheckIfEven(8))
 
 inp = input("Wanna play a game? y/n")
