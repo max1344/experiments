@@ -9,7 +9,7 @@ dict = {
     1 : siffr,
     2 : symb
 }
-#hej hej hej 
+
 def Generate(length):
     password = ''
     for x in range(0,length):
