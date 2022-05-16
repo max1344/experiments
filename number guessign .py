@@ -3,7 +3,7 @@ import random
 playing = True
 
 def function():
-  answer = random.randint(1,10)
+  answer = random.randint(1,1)
   inp = input("Guess your number: ")
   while inp not in ["1", "2", "3","4","5","6","7","8","9","10"]:
       inp = input("Invalid guess again: ")
