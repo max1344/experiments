@@ -1,0 +1,31 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+
+.main-header{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("test\ bild\ .jpeg");
+    background-blend-mode:  multiply;
+    background-size: cover;
+}  
+
+.huvud-text{
+    font-family: fantasy;
+    text-align: center;
+    color: blue;
+}
+
+button{
+    background-color: rgb(201, 164, 18);
+}
+
+
+nav{
+    center
+}
